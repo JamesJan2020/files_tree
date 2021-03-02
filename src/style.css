@@ -1,0 +1,14 @@
+.forder {
+    color: rgb(84, 31, 228);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.forder:before {
+    content: '🗀';
+  
+}
+
+.forder.open:before {
+    content: '🗁';
+}
